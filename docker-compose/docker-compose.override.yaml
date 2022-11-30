@@ -1,0 +1,6 @@
+# docker-compose.override.yaml
+version: '2.4'
+services:
+  zoekt-indexserver-0:
+    ports:
+      - '0.0.0.0:6072:6072'
